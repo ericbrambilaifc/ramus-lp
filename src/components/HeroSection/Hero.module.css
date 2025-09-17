@@ -1,0 +1,19 @@
+.background {
+    background: linear-gradient(180deg, #121498 0%, #4C1193 100%);
+    padding: 120px 0px;
+
+}
+
+.textSub {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100px;
+    text-align: center;
+    margin-top: -20px;
+}
+
