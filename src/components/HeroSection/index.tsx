@@ -1,18 +1,21 @@
+import Header from '../Header'
 import styles from './Hero.module.css'
 import Image from 'next/image'
 
 export default function Hero() {
     return (
+
+
         <section className={styles.background} style={{ position: 'relative', height: '100vh' }}>
-            
+
             {/* Logo + texto */}
-            <div style={{ 
-                position: 'relative', 
-                zIndex: 2, 
-                display: 'flex', 
-                flexDirection: 'column', 
-                alignItems: 'center', 
-                justifyContent: 'center', 
+            <div style={{
+                position: 'relative',
+                zIndex: 2,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
                 height: '100%',
                 paddingBottom: '290px'
             }}>
@@ -38,6 +41,19 @@ export default function Hero() {
                 />
             </div>
 
+
+            <Image
+                src="/vetor-onda-branca.png"
+                alt="DIVISORIA"
+                width={1920}
+                height={153}
+                sizes="100vw"
+                style={{
+                    width: '100%',
+                    height: 'auto',
+                }}
+            />
         </section>
+
     )
 }

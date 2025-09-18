@@ -1,0 +1,85 @@
+.background {
+    background: #ffffff;
+}
+
+.title {
+    color: #141498;
+    font-family: Figtree;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.cards {
+    width: 530px;
+    height: 316px;
+    border-radius: 20px;
+    background: linear-gradient(69deg, rgba(28, 13, 64, 0.27) 3.01%, rgba(191, 172, 237, 0.27) 99.25%), #1C0D40;
+    position: relative;
+    display: flex;
+    /* Adicione para usar flexbox */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    ;
+}
+
+.cards:hover {
+    background: linear-gradient(69deg, rgba(108, 66, 206, 0.27) 3.01%, rgba(191, 172, 237, 0.27) 99.25%), #1C0D40;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+}
+
+
+
+
+.number {
+    width: 46px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: -23.433px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente o número */
+    justify-content: center;
+    /* Centraliza horizontalmente o número */
+    border-radius: 20px;
+    background: linear-gradient(69deg, rgba(28, 13, 64, 0.27) 3.01%, rgba(191, 172, 237, 0.27) 99.25%), #1C0D40;
+}
+
+.textNumber {
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+    /* Remove margem padrão do h3 */
+    line-height: 1;
+    /* Remove espaçamento extra */
+}
+
+.textText {
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.textSubText {
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 360px;
+}
+
+.texts {
+    margin-left: -40px;
+
+}
